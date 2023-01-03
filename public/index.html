@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<title></title>
+</head>
+<body>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item">
+    	<span class="material-symbols-outlined has-text-danger-dark">eco</span>
+      	<span class="has-text-danger-dark has-text-weight-semibold is-size-4">Abitibi</span>
+    </a>
+  </div>
+  <div class="navbar-start">
+      <div class="navbar-item">
+      	<div class="navbar-item">
+      		<span class="material-symbols-outlined mr-1 has-text-danger-dark">article</span>
+      		<span>Mon contrat sur mesure</span>
+      	</div>
+      	<div class="navbar-item">
+      		<span class="material-symbols-outlined mr-1 has-text-danger-dark">euro_symbol</span>
+      		<span>Je paie en ligne</span>
+      	</div>
+      	<div class="navbar-item">
+      		<span class="material-symbols-outlined mr-1 has-text-danger-dark">flight_land</span>
+      		<span>A moi le Québec !</span>
+      	</div>
+      	<div class="navbar-item">
+      		<span class="material-symbols-outlined mr-1 has-text-danger-dark">person</span>
+      		<span>Mon espace</span>
+      	</div>
+      </div>
+    </div>
+</nav>
+<div class="image-full-width">
+	<img src="quebec.jpg">
+</div>
+<div class="container relative is-flex is-justify-content-center w-100">
+	<div class="absolute t-0 tr-2 pb-2">
+		<p class="is-size-2 has-text-white has-text-centered">Site en construction !</p>
+	</div>
+	<div class="is-flex is-flex-wrap-wrap w-100">
+	<div class="is-flex  absolute t-0 tr-1 w-100 is-justify-content-space-between">
+		<div class="card p-2 relative">
+			<span class="material-symbols-outlined is-size-1 has-text-info">water_drop</span>
+			<div class="absolute b-0 l-5"><span class="has-text-centered has-text-info">Plombier</span></div>
+		</div>
+		<div class="card p-2 relative ml-4">
+			<span class="material-symbols-outlined is-size-1 is-brown">device_thermostat</span>
+			<div class="absolute b-0 l-5"><span class="has-text-centered is-brown">Climat</span></div>
+		</div>
+		<div class="card p-2 relative ml-4">
+			<span class="material-symbols-outlined is-size-1 has-text-warning">sunny</span>
+			<div class="absolute b-0 l-5"><span class="has-text-centered has-text-warning">Solaire</span></div>
+		</div>
+		<div class="card p-2 relative ml-4">
+			<span class="material-symbols-outlined is-size-1 is-purple">electric_bolt</span>
+			<div class="absolute b-0 l-5"><span class="has-text-centered is-purple">Elec</span></div>
+		</div>
+		<div class="card p-2 relative ml-4">
+			<span class="material-symbols-outlined is-size-1 is-orange">home</span>
+			<div class="absolute b-0 l-5"><span class="has-text-centered is-orange">Home</span></div>
+		</div>
+		<div class="card p-2 relative ml-4">
+			<span class="material-symbols-outlined is-size-1 has-text-primary">construction</span>
+			<div class="absolute b-0 l-5"><span class="has-text-centered has-text-primary">Travaux</span></div>
+		</div>
+	</div>
+	<div class="tr-3 w-100">
+		<div class="is-flex is-justify-content-space-between">
+			<div class="button br-out has-text-danger">Je suis en panne</div>
+			<div class="button br-in has-text-white">J'ai un projet</div>
+		</div>
+	</div>
+	<div class="w-70 tr-3 mt-3">
+		<form class="is-flex is-justify-content-space-between is-flex-wrap-wrap" name="form">
+			<input name="username" class="input w-50 mt-3" type="text" placeholder="Votre nom*">
+			<div class="w-50 is-flex mt-3"><input name="isClient" class="myinput large" type="checkbox"><span class="check-text ml-3">Déjà client</span>
+			</div>
+			<input name="phone" class="input w-50 mt-3" type="text" placeholder="Téléphone*">
+			<input name="email" class="input w-50 mt-3" type="text" placeholder="Email*">
+			<div class="control has-icons-left w-100 mt-3">
+			  <div class="select w-100">
+			    <select name="subject">
+			      <option value="plombier" selected>Plomberie</option>
+			      <option value="climat">Climat</option>
+			      <option value="Solaire">Solaire</option>
+			    </select>
+			  </div>
+			  <div class="icon is-left hz">
+			    Sujet *
+			  </div>
+			</div>
+			<textarea name="message" class="textarea has-fixed-size mt-3" placeholder="Message*"></textarea>
+			<p class="w-100 mt-3">*mentions obligatiores</p>
+			<div id="submit" class="button br-in has-text-white w-50 mt-3">
+				ENVOI MESSAGE
+			</div>
+			<div id="result"></div>
+		</form>
+	</div>
+	<div class="w-100 tr-3 mt-6 mb-3">
+		Plomberie - Chauffage - Ventilation - Solaire - Electricite - Domotique - Travaux
+	</div>
+</div>
+
+</div>
+<div class="tr-3  absolute b-0 w-100 is-flex is-justify-content-center footer-custom">
+	<div class="footer-text w-90 has-text-centered">abitibi ©️ | Tous droits exclusivements résérvés | Mentions légales | Réalisé par CIDEM</div>
+	<div class="absolute b-0 r-0">
+		<i class="devicon-linkedin-plain has-text-danger"></i>
+		<i class="devicon-facebook-plain has-text-danger"></i>
+		<i class="devicon-twitter-original has-text-danger"></i>
+	</div>
+</div>
+<script>
+	function validate(){
+		let form = document.forms["form"];
+		let errors = []
+		for(let i=0;i<form.length;i++){
+			if(form[i].value==""){
+				errors.push(form[i].name)
+			}
+		}
+		if(errors.length === 0){
+			return true
+		}
+		else{
+			return errors
+		}
+	}
+	function getData(){
+		let form = document.forms["form"];
+		let data = []
+		for(let i=0;i<form.length;i++){
+			console.log(form[i].name)
+			let label = form[i].name
+			let obj = {}
+			obj[form[i].name]=form[i].value
+			data.push(obj)
+		}
+		return data
+	}
+	document.getElementById('submit').addEventListener('click',()=>{
+		if(validate()==true){
+			data=getData()
+			fetch('/api/send', {
+			  	method: "POST",
+			  	body: JSON.stringify(data),
+			  	headers: {"Content-type": "application/json; charset=UTF-8"}
+			})
+			.then(res=>res.json()).then((res)=>{
+				if(res.res === "Success"){
+					document.getElementById("result").innerHTML = "<span class='has-text-primary'>Le message a bien été envoyé</span>"
+				}
+				else{
+					document.getElementById("result").innerHTML = "une erreur s'est produite"
+				}
+			})
+			
+		}
+		else{
+			validate().map((name)=>{
+				console.log(name)
+				document.forms["form"][name].style.borderColor="red"
+			})
+		}
+	})
+</script>
+</body>
+</html>
